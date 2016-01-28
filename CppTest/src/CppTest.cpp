@@ -10,12 +10,12 @@
 #include "firstItems.h"
 
 using namespace std;
-
-
+char* testString = "test";
 
 int main() {
     cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
     const char* tourlou;
+    firstItems::init();
     firstItems A1;
     tourlou = A1.get();
     const_cast<char*>(tourlou)[0] = '4';
