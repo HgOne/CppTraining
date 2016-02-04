@@ -37,7 +37,7 @@ firstItems::~firstItems()
 const char* firstItems::get() const
 {
     static int count = 0;
-    count += strlen(data);
+    //count += strlen(data);
 
      char* test = &data[0];
     return test;
