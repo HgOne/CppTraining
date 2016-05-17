@@ -15,7 +15,7 @@ class Item7 {
 public:
     Item7();
     virtual ~Item7();
-    virtual void print();
+    virtual void print(){};
 protected:
     char *item;
 };
