@@ -12,6 +12,8 @@
 #include "Item7.h"
 #include "Item12.h"
 #include "item13.h"
+#include "Item18.h"
+#include "Item19.h"
 #include "Item7PureVirtual.h"
 #include "ExceptionHandling.h"
 #include "vtable.h"
@@ -23,8 +25,10 @@ int main() {
     cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
 
 
+    //Item18::test();
+    Item19::test();
      //item13::test();
-     vtable::test();
+     //vtable::test();
 
 //    DerivedItem12 A;
 //    DerivedItem12 B;
